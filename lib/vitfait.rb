@@ -14,7 +14,7 @@ class Vitfait
       done = '_' * percentage_done
       left = '_' * (percentage_left - 1) if percentage_left > 0
       print "#{percentage_done}% "
-      print "#{done}🚋 #{left} 🏁  "
+      print "#{done}🚋 #{left} 🏁"
     end
   end
 end
